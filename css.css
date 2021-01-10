@@ -1,0 +1,132 @@
+html{
+    background-image: url(/images/background.jpg);
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+}
+body {
+    margin: 0;
+}
+.mySlides {
+    display: none
+}
+* {
+    box-sizing: border-box;
+  }
+p {
+  text-align:justify;
+}
+div.topnav{
+    padding: 0.1px;
+  }
+div{
+    padding: 15px;
+  }
+  .columnB{
+    float: left; /*floats next to each other*/
+    width: 40%;
+    text-align: left;
+    padding: 8px;
+    height:310px;
+  }
+  .columnA {
+    float: left; /*floats next to each other*/
+    text-align: left;
+    width: 60%;
+    padding: 8px;
+    height:310px;
+}
+img { /*logo image*/
+  width:  140px;
+  height: 110px;
+  border-radius: 20%;
+}
+img.home{ /*images in the home page*/
+  width: 500px;
+   height: 380px;
+}
+img.social{ /*social media icons*/
+  width:  30px;
+  height: 30px;
+}
+img.social:hover {
+  opacity: 0.5; /*to make white shadow over hovering*/
+}
+div.section{
+  height: 650px;
+}
+div.section2{
+  height: 400px;
+}
+
+span{
+    color: #0000cc;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ul.normal {
+  list-style-Type: none;
+  padding: 0;
+  margin: 0;
+   }
+ol.normal {
+    margin: 0;
+    padding: 0;
+     }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0000cc;
+    overflow: hidden;
+    border-bottom: #dcf309 solid 2px; /*making bottom line*/
+  }
+li {
+    float: left;
+  }
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    display: block;
+    color: #d19df0;
+  }
+a.active {
+    color: #dcf309;
+    font-weight: bold;
+  }
+.dropdown-content {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+    position: absolute;
+    display: none;
+    min-width: 160px;
+  }
+li.dropdown {
+    display: inline-block;
+  }
+li a, .dropbtn {
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;  
+    cursor: pointer;
+  }
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #0f0feb;
+  }
+.topnav{
+  width: 1000px;
+}
+div.home{
+    height: 600px;
+}
