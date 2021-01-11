@@ -1,7 +1,6 @@
 html{
     background-image: url(/images/background.jpg);
-    font-family: "Times New Roman", Times, serif;
-    font-style: normal;
+    font-family: Nyala;
 }
 body {
     margin: 0;
@@ -129,4 +128,8 @@ li a, .dropbtn {
 }
 div.home{
     height: 600px;
+}
+div.testcopyright{
+    font-family: Nyala;
+    font-size: 11px;
 }

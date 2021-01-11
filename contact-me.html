@@ -1,0 +1,96 @@
+<!doctype html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Demo 1</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <center>
+        <img src="images/logo1.png" width="140" height="10" alt="logo" />
+
+        <table class="mastertable2">
+            <tr>
+                <!--menu navigation-->
+                <td>
+                    <div class="topnav">
+                        <ul class="topnav">
+                            <li> <a href="/">Home</a></li>
+                            <li> <a href="about-me.html">About Me</a></li>
+                            <li class="dropdown">
+                                <a href="skills.html" class="dropbtn">Skills</a>
+                                <div class="dropdown-content">
+                                    <a href="">General</a>
+                                    <a href="">Programming</a>
+                                    <a href="">Languages</a>
+                                </div>
+                            </li>
+                            <li> <a class="active" href="contact-me.html">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="bodydetails" colspan="4">
+                    <center>
+                <div class="columnB">
+                    <h3>Contact Me</h3>
+                    <p>
+                        <a href="mailto: yasmin_budaham@hotmail.com"><img class="social" src="images/email.jpeg" /></a><br>
+                        <a href="linkedin.com/in/yasmin-b-014080200"><img class="social" src="images/linkedin.jpeg" /></a>
+                        <a href="https://www.instagram.com/yasmin_developer/"><img class="social" src="images/instagram.jpeg" /></a>
+                        <a href="https://twitter.com/YasminDeveloper"><img class="social" src="images/twitter.jpeg" /></a>
+                        <a href="https://github.com/yasminbudaham"><img class="social" src="images/GitHub.jpeg" /></a>
+                    </p>
+                </div>
+                <div class="columnA">
+                    <h3>Get in touch</h3>
+                    <form method="post" action="mailto:yasmin_budaham@hotmail.com">
+                        <label for="user">Full Name: </label>
+                        <input required name="user" type="text" id="user">
+                        <br>
+                        <label>Email ID:</label>
+                        <input required placeholder="emailid@domain.com" name="email" type="email">
+                        <br>
+                        <label>Gender:</label>
+                        <input type="radio" name="gender" value="Female">Female:
+                        <input type="radio" name="gender">Male:
+                        <br>
+                        <label for="user">Subject: </label>
+                        <select name="product" id="">
+                            <option value=""></option>
+                            <option value="">Feadback</option>
+                            <option value="">Comments</option>
+                            <option value="">Other</option>
+                        </select><br>
+                        <textarea required minlength="100" maxlength="800" name="message" id="message" cols="70" rows="8"></textarea>
+                        <br>
+                        <button type="submit" value="Send Email">Submit</button>
+                        <button type="reset">Clear</button>
+                    </form>
+                
+                </div>
+                    </center>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="copyright" colspan="4">
+                    <center>
+                        Copyright @2020
+                        <img src="images/logo1.png" width="140" height="10" alt="logo" /> All right reserved
+                        <br />Designed By <span>Yasmin Budaham </span>Software Engineering Graduated
+                </td>
+    </center>
+    </tr>
+    </table>
+</body>
+
+</html>
