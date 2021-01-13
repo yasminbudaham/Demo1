@@ -56,7 +56,10 @@ div.section{
 div.section2{
   height: 400px;
 }
-
+h4.aboutmehome{
+  font-size: 30px;
+  font-family: Ballonku;
+}
 span{
     color: #0000cc;
     font-size: 14px;
@@ -132,4 +135,8 @@ div.home{
 div.testcopyright{
     font-family: Nyala;
     font-size: 11px;
+}
+p.paragraghsize{
+  width:1000px;
+  line-height: 20pt;
 }
