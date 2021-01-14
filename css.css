@@ -98,6 +98,7 @@ li a:hover {
     display: block;
     color: #d19df0;
   }
+  
 a.active {
     color: #dcf309;
     font-weight: bold;
@@ -139,4 +140,11 @@ div.testcopyright{
 p.paragraghsize{
   width:1000px;
   line-height: 20pt;
+}
+img.arrow{
+  border-radius: 8px;
+  width: 20px;
+  height: 80px;
+  float: right;
+  bottom: 0px;
 }
