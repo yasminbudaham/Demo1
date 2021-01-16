@@ -51,10 +51,10 @@ img.social:hover {
   opacity: 0.5; /*to make white shadow over hovering*/
 }
 div.section{
-  height: 650px;
+  height: 580px;
 }
 div.section2{
-  height: 400px;
+  height: 460px;
 }
 h4.aboutmehome{
   font-size: 30px;
@@ -141,6 +141,9 @@ p.paragraghsize{
   width:1000px;
   line-height: 20pt;
 }
+p.paragraghsize2{
+  text-align: center;
+}
 img.arrow{
   border-radius: 8px;
   width: 20px;
@@ -152,8 +155,14 @@ img.icon{
   width: 50px;
   height: 50px;
 }
-
-
+img.icon2{
+  width: 100px;
+  height: 60px;
+}
+img.skill{
+  width: 200px;
+  height: 160px;
+}
 dl {
   padding: 0;
   margin: 0;
@@ -163,10 +172,23 @@ dl {
 dt {
   float: left;
   grid-column-start: 1;
-
+  margin-bottom: 1em;
 }
 dd {
   float: right;
   grid-column-start: 2;
-
+}
+#section-left {
+  float:left;
+  text-align: center;
+}
+#section-center {
+  margin-left:80px;
+  float:left;
+  text-align: center;
+}
+#section-right {
+  margin-left:80px;
+  float:left;
+  text-align: center;
 }
